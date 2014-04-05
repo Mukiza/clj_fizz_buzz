@@ -67,4 +67,10 @@
       (should= "Fizz" (fizz-buzz "13")))
 
   (it "returns 'Buzz' when given 52"
-      (should= "Buzz" (fizz-buzz "52"))))
+      (should= "Buzz" (fizz-buzz "52")))
+
+  (it "returns 'Buzz' when given 100"
+      (should= "Buzz" (fizz-buzz "100")))
+
+  (it "returns 'Fizz Buzz' when given 150"
+      (should= "Fizz Buzz" (fizz-buzz "150"))))
